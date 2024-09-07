@@ -1,0 +1,74 @@
+
+
+#login_container {
+  width: 500px;
+  height: 500px;
+
+  background-color: yellow;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#fields {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+input {
+  width: 200px;
+  padding: 5px;
+
+  box-sizing: border-box;
+
+  border-radius: 5px;
+
+  border: none;
+
+  outline: none;
+}
+
+#fields > button {
+  width: 200px;
+  padding: 5px;
+
+  box-sizing: border-box;
+
+  background-color: #821e1e;
+  color: white;
+
+  border-radius: 5px;
+  border: none;
+}
+
+#below_btn {
+  display: flex;
+  flex-direction: row;
+
+  width: 210px;
+
+  justify-content: space-between;
+
+  margin-top: 9px;
+}
+
+h2,
+input::placeholder {
+  color: #7b211e;
+}
+
+.btn {
+  color: #7b211e;
+
+  border: none;
+
+  background: none;
+}
+
+button {
+  cursor: pointer;
+}
