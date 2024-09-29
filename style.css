@@ -1,16 +1,32 @@
+#container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(images/trees.png), url(images/bg.jpg);
+  background-size: contain, cover;
 
+  background-repeat: no-repeat;
+}
 
 #login_container {
   width: 500px;
   height: 500px;
 
-  background-color: yellow;
   border-radius: 20px;
 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  position: relative;
+  left: 500px;
+}
+
+#login_container {
+  background-image: url(images/girl.png);
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-size: contain, cover;
 }
 
 #fields {
